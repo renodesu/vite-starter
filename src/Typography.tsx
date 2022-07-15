@@ -1,6 +1,6 @@
 const Typography = () => {
   return (
-    <div>
+    <div className="prose dark:prose-invert">
       <div>
         <h1>H1</h1>
         <h2>H2</h2>
@@ -32,13 +32,13 @@ const Typography = () => {
       <div>
         <div>
           <input type="text" name="" id="" placeholder="text" />
-          <input type="password" name="" id="" placeholder="text" />
+          <input type="password" name="" id="" placeholder="password" />
         </div>
         <button>Button</button>
         <button disabled>Disabled</button>
         <div>
           <select name="" id="">
-            <option value="foo">fooaaaaaaaaaaaa</option>
+            <option value="foo">fooooo</option>
             <option value="bar">bar</option>
             <option value="baz">baz</option>
           </select>
