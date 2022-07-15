@@ -3,10 +3,15 @@ const Typography = () => {
     <div className="prose dark:prose-invert">
       <div>
         <h1>H1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <h2>H2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <h3>H3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <h4>H4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <h5>H5</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <h6>H6</h6>
       </div>
       <div>
