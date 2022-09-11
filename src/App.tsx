@@ -1,15 +1,12 @@
-import { RecoilRoot } from 'recoil'
 import Index from './Index'
 import Typography from './Typography'
 
 function App() {
   return (
-    <RecoilRoot>
-      <div className="p-4">
-        <Index />
-        <Typography />
-      </div>
-    </RecoilRoot>
+    <div className="p-4">
+      <Index />
+      <Typography />
+    </div>
   )
 }
 
