@@ -1,4 +1,5 @@
 import { useRecoilState } from 'recoil'
+
 import { counterState } from './state/state'
 
 const Index = () => {
