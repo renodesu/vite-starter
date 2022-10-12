@@ -8,24 +8,28 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "dependencies": {
-    "ky": "^0.31.3",
+    "ky": "^0.31.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
-    "recoil": "^0.7.5"
+    "react-router-dom": "^6.4.2",
+    "recoil": "^0.7.6"
   },
   "devDependencies": {
+    "@renodesu/eslint-config": "git+https://github.com/renodesu/eslint-config.git#f453ea02093c96d58d8997c01c12834d5e783b5e",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.7",
-    "@types/react": "^18.0.18",
+    "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "sass": "^1.54.8",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "sass": "^1.55.0",
     "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.2",
-    "vite": "^3.1.0"
+    "typescript": "^4.8.4",
+    "vite": "^3.1.7"
   }
 }
