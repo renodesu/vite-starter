@@ -36,13 +36,13 @@ const Typography = () => {
       </div>
       <div>
         <div>
-          <input type="text" name="" id="" placeholder="text" />
-          <input type="password" name="" id="" placeholder="password" />
+          <input type="text" name="" id="username" placeholder="text" />
+          <input type="password" name="" id="password" placeholder="password" />
         </div>
         <button>Button</button>
         <button disabled>Disabled</button>
         <div>
-          <select name="" id="">
+          <select name="" id="foo1">
             <option value="foo">fooooo</option>
             <option value="bar">bar</option>
             <option value="baz">baz</option>
@@ -50,7 +50,7 @@ const Typography = () => {
           jeejee
         </div>
         <div>
-          <select name="" id="" disabled>
+          <select name="" id="foo2" disabled>
             <option value="foo">foo</option>
           </select>
         </div>
