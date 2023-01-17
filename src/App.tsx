@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 import Root from './Root'
-import Typography from './Typography'
+import Typography from './components/Typography'
 import Sub from './components/Sub'
 
 const router = createBrowserRouter([

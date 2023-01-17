@@ -1,6 +1,6 @@
 const Typography = () => {
   return (
-    <div className="prose dark:prose-invert">
+    <div className="prose">
       <div>
         <h1>H1</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -82,12 +82,12 @@ const Typography = () => {
         </div>
         <div>
           <h2>Code</h2>
-          <code>// some JS const kek = 666 const res = await foo(kek)</code>
+          <code>some JS const kek = 666 const res = await foo(kek)</code>
         </div>
         <div>
           <h2>Blockquote</h2>
           <blockquote>
-            // some JS const kek = 666 const res = await foo(kek)
+            some JS const kek = 666 const res = await foo(kek)
           </blockquote>
         </div>
         <div>
