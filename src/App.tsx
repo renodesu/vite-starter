@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
-import Root from './Root'
+import Root from './components/Root'
 import Sub from './components/Sub'
 import Typography from './components/Typography'
 
